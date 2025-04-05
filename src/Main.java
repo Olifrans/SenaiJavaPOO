@@ -1,4 +1,5 @@
 import models.Carro;
+import models.ContaBancaria;
 import models.Fabricante;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
@@ -20,6 +21,16 @@ public class Main {
         System.out.println("Conceito de Polimorfismo!!!");
         Fabricante fab = new Fabricante();
         fab.VeiculoDoAno();
+
+        System.out.println("------------------------");
+
+        System.out.println("Conceito de Encapsulamento!!!");
+        ContaBancaria saldo = new  ContaBancaria();
+
+
+        saldo.Depositar(357.55);
+        System.out.println(saldo.getSaldo());
+
 
     }
 }

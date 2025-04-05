@@ -1,5 +1,4 @@
 package models;
-
 public class Carro extends Veiculo {
     public Long Id;
 
@@ -8,7 +7,10 @@ public class Carro extends Veiculo {
     public int Ano;
 
     public void ExibirInformacao() {
-        System.out.println(Id+"O modelo do carro é: " + Modelo + "O ano do carro é :" + Ano + "A cor é :" + Cor);
+        System.out.println(Id+"O modelo do carro é: "
+                + Modelo + "O ano do carro é :"
+                + Ano + "A cor é :"
+                + Cor);
     }
 
     @Override
@@ -16,5 +18,4 @@ public class Carro extends Veiculo {
         System.out.println("Carro em movimento");
         System.out.println("Carro em alta velocidade");
     }
-
 }
