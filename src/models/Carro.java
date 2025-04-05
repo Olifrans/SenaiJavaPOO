@@ -8,9 +8,8 @@ public class Carro extends Veiculo {
     public int Ano;
 
     public void ExibirInformacao() {
-        System.out.println(Id+"O medole do carro é: " + Modelo + "O ano do carro é :" + Ano + "A cor é :" + Cor);
+        System.out.println(Id+"O modelo do carro é: " + Modelo + "O ano do carro é :" + Ano + "A cor é :" + Cor);
     }
-
 
     @Override
     public void MoverVeiculo(){
